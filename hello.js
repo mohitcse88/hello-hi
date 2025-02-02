@@ -20,7 +20,10 @@ let city = "Motihari"
 let loggedIn = true
 let debitCard = true 
 
-
+const user = {
+    firstName: "Mohit",
+    lastName: "Kumar"
+}
 
 console.log(`First Name: ${firstName} and Last Name: ${lastName}`);
 console.table([firstName, lastName, emailId, phoneNo, age, country, state, district, city, loggedIn, debitCard])
